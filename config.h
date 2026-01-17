@@ -1,5 +1,5 @@
 /* See LICENSE file for copyright and license details. */
-// test11
+
 /*
  * appearance
  *
@@ -252,11 +252,11 @@ static Shortcut shortcuts[] = {
 	{ ControlMask,          XK_Print,       toggleprinter,  {.i =  0} },
 	{ ShiftMask,            XK_Print,       printscreen,    {.i =  0} },
 	{ XK_ANY_MOD,           XK_Print,       printsel,       {.i =  0} },
-	{ ControlMask,          XK_minus,       zoom,           {.f = +4} },
-	{ ControlMask,          XK_0,           zoom,           {.f = -1} },
+	{ Mod4Mask,          XK_minus,       zoom,           {.f = +4} },
+	{ Mod4Mask,          XK_0,           zoom,           {.f = -1} },
 	{ ControlMask,          XK_Home,        zoomreset,      {.f =  0} },
-	{ Mod4Mask,          XK_y,           clipcopy,       {.i =  0} },
-	{ Mod4Mask,          XK_p,           clippaste,      {.i =  0} },
+	{ Mod4Mask,              XK_y,           clipcopy,       {.i =  0} },
+	{ Mod4Mask,              XK_p,           clippaste,      {.i =  0} },
 	//{ MODKEY,               XK_y,           clipcopy,       {.i =  0} },
 	{ ControlMask,          XK_Insert,      clippaste,      {.i =  0} },
 	//{ MODKEY,               XK_p,           clippaste,      {.i =  0} },
